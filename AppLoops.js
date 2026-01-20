@@ -31,3 +31,12 @@ for (let x = 1 ; x <= 15 ; x++){
         console.log(x + " is EVEN")
     }
 }
+
+
+// EXERCISE
+
+let word = "ASAP FRONTEND";
+
+for (let z = 0 ; z < word.length ; z++ ){
+        console.log(word[z])
+}
