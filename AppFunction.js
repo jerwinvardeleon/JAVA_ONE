@@ -23,3 +23,10 @@ function convert(USD){
 convert(1000)
 convert(500)
 convert(200)
+
+
+// EXAMPLE 3 - Arrow function
+const convUSDtoAUD = (US) => {
+    console.log("AUD is " + US * 1.5)
+}
+convUSDtoAUD(1000)
