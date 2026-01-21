@@ -15,6 +15,49 @@ console.log(array[array.length-1])
 array.push("milk")
 
 // FILTER, using call back function
-array.filter((item) => {
+let filteredArray = array.filter(item => {
     console.log(item);
+    return true
 })
+console.log(filteredArray)
+
+
+
+
+// Example 2
+// =========
+
+let array2 = [20,15,10,30]
+
+let filteredArray2 = array2.filter(price => {
+    console.log(price);
+    if (price <= 15){
+        return true
+    }
+    // This can also be used instead of the IF statement
+    // --- "return element <=15;"
+    // since the formula is a boolean method that returns true or false
+})
+console.log(filteredArray2)
+
+
+
+// Example 3
+// =========
+
+let people = [18,20,16,15,21]
+
+let adults = people.filter(age => {
+    console.log(age)
+    if (age >= 18){
+        return true;
+    }
+})
+console.log(adults)
+
+// short version of Example 3
+let people2 = [18,20,16,15,21]
+
+let adults2 = people2.filter( age => age >= 18);
+
+console.log(adults2)
