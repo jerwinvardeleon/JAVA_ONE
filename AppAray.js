@@ -55,9 +55,20 @@ let adults = people.filter(age => {
 })
 console.log(adults)
 
-// short version of Example 3
+
+//////// short version of Example 3
 let people2 = [18,20,16,15,21]
 
 let adults2 = people2.filter( age => age >= 18);
 
 console.log(adults2)
+
+
+//////// using FOR method
+let peeps = [18,20,16,15,21]
+
+for (let i = 0; i < peeps.length ; i++){
+    if (peeps[i] >= 18){
+        console.log(peeps[i])
+    }
+}
