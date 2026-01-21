@@ -61,7 +61,6 @@ function signUp(email, pass, name, discord, subsc, lesson) {
     }
     users.push(userA)
 }
-
 signUp("johnsmith@gmail.com","test123","Johnn Smith","JohnDisc","VIP",[1,2]);
 
 console.log(users)

@@ -1,0 +1,13 @@
+.sideBar{
+    position: fixed;
+    background-color: aqua;
+    width: 380px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.open .sideBar{
+    display: block;
+}
